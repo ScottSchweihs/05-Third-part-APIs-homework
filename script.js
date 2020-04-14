@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  const m = moment();
+  const m = moment().add(1, 'week');
 
   var date = m.format('dddd MMM Mo YYYY');
   $('#date').html(date);
