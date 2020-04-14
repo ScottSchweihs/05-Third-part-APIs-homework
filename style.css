@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  /* background-color: #404040; */
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+h3 {
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+#clear {
+  margin-left: 93%;
+}
+
+table, div {
+  margin: auto;
+  width: 75%;
+}
+
+td, tr{
+  border: 1px solid black;
+  text-align: center;
+  padding: 0px;
+  height: 80px;
+}
+
+.timeText {
+  width: 20%;
+}
+
+.tdInput {
+  width: 60%;
+}
+
+.tdSave {
+  width: 20%;
+}

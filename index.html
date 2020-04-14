@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+
+    <meta charset='UTF-8' />
+    <link rel='stylesheet' href='style.css' />
+
+    <title>Work Day Scheduler</title>
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Work Day Scheduler</h1>
+      <h3 id='date'></h3>
+    </header>
+    
+    <div><button id="clear">Clear Table</button></div>
+    <table>
+      <tr id="row9AM" time='9AM' rowNum='1'>
+        <td class='timeText'>
+          9AM
+        </td>
+        <td class='tdInput'>
+          <input id='input9AM' time='9AM'></input>
+          <p id='output9AM' time='9AM'></p>
+        </td>
+        <td class='tdSave'>
+          <button id='save9AM' time='9AM'>Save</button>
+        </td>
+      </tr>
+      <tr id="row10AM" time='10AM' rowNum='2'>
+        <td class='timeText'>
+          10AM
+        </td>
+        <td class='tdInput'>
+          <input id='input10AM' time='10AM'></input>
+          <p id='output10AM' time='10AM'></p>
+        </td>
+        <td class='tdSave'>
+          <button id='save10AM' time='10AM'>Save</button>
+        </td>
+      </tr>
+      <tr id="row11AM" time='11AM' rowNum='3'>
+        <td class='timeText'>
+          11AM
+        </td>
+        <td class='tdInput'>
+          <input id='input11AM' time='11AM'></input>
+          <p id='output11AM' time='11AM'></p>
+        </td>
+        <td class='tdSave'>
+          <button id='save11AM' time='11AM'>Save</button>
+        </td>
+      </tr>
+      <tr id="row12PM" time='12PM' rowNum='4'>
+        <td class='timeText'>
+          12PM
+        </td>
+        <td class='tdInput'>
+          <input id='input12PM' time='12PM'></input>
+          <p id='output12PM' time='12PM'></p>
+        </td>
+        <td class='tdSave'>
+          <button id='save12PM' time='12PM'>Save</button>
+        </td>
+      </tr>
+      <tr id="row1PM" time='1PM' rowNum='5'>
+        <td class='timeText'>
+          1PM
+        </td>
+        <td class='tdInput'>
+          <input id='input1PM' time='1PM'></input>
+          <p id='output1PM' time='1PM'></p>
+        </td>
+        <td class='tdSave'>
+          <button id='save1PM' time='1PM'>Save</button>
+        </td>
+      </tr>
+      <tr id="row2PM" time='2PM' rowNum='6'>
+        <td class='timeText'>
+          2PM
+        </td>
+        <td class='tdInput'>
+          <input id='input2PM' time='2PM'></input>
+          <p id='output2PM' time='2PM'></p>
+        </td>
+        <td class='tdSave'>
+          <button id='save2PM' time='2PM'>Save</button>
+        </td>
+      </tr>
+      <tr id="row3PM" time='3PM' rowNum='7'>
+        <td class='timeText'>
+          3PM
+        </td>
+        <td class='tdInput'>
+          <input id='input3PM' time='3PM'></input>
+          <p id='output3PM' time='3PM'></p>
+        </td>
+        <td class='tdSave'>
+          <button id='save3PM' time='3PM'>Save</button>
+        </td>
+      </tr>
+      <tr id="row4PM" time='4PM' rowNum='8'>
+        <td class='timeText'>
+          4PM
+        </td>
+        <td class='tdInput'>
+          <input id='input4PM' time='4PM'></input>
+          <p id='output4PM' time='4PM'></p>
+        </td>
+        <td class='tdSave'>
+          <button id='save4PM' time='4PM'>Save</button>
+        </td>
+      </tr>
+      <tr id="row5PM" time='5PM' rowNum='9'>
+        <td class='timeText'>
+          5PM
+        </td>
+        <td class='tdInput'>
+          <input id='input5PM' time='5PM'></input>
+          <p id='output5PM' time='5PM'></p>
+        </td>
+        <td class='tdSave'>
+          <button id='save5PM' time='5PM'>Save</button>
+        </td>
+      </tr>
+    </table>
+
+    <script src = 'https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script src = 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src = 'script.js'></script>
+  </body>
+</html>
