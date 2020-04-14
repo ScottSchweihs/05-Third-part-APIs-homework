@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  const m = moment("2014-09-08T13:02:17-05:00");
+  const m = moment();
 
   var date = m.format('dddd MMM Mo YYYY');
   $('#date').html(date);
